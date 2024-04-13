@@ -389,7 +389,7 @@ navbar .logo{
   width: 18.75rem;
   height: 0;
   background: rgba(255, 255, 255 , 0);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(20px);
   border-radius: var(--radius);
   overflow: hidden;
   transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -409,13 +409,14 @@ navbar .logo{
 .dropdown_menu a{
   color: var(--clr-primary-light);
   font-size: 1.7rem;
+  text-shadow: 0 2px 4px var(--clr-primary-dark);
   
 }
 .dropdown_menu a.active{
   color: var(--clr-grey-12);
   font-size: 2.5rem;
-  font-weight: bolder;
-  text-shadow: 0 1px 3px var(--clr-primary-dark);
+  font-weight: bold;
+  text-shadow: 1px 1px 3px var(--clr-primary-light);
 }
 .dropdown_menu a:hover{
   color: var(--clr-grey-12);
