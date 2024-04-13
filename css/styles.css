@@ -274,7 +274,7 @@ Navbar and header
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
    position: relative;
   padding: 0 2rem;
   height: 100vh;
