@@ -34,6 +34,7 @@ Variables
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: var(--ff-primary);
   background: var(--clr-primary-dark);
@@ -136,7 +137,7 @@ p {
   color: var(--clr-linkandfirsttitle);
   font-family: var(--ff-secondary);
   font-size: 3rem;
-  margin-top: 2rem;
+  margin: 5rem;
 }
 .section-title h3 {
   margin-top: -1rem;
@@ -460,9 +461,8 @@ Contact
 */
 .contact {
   background: var(--clr-grey-10);
-}
-.contact-form{
-  margin:  3rem auto;
+  margin: 5rem 0;
+  
 }
 .contact-info {
   display: flex;
@@ -515,7 +515,7 @@ Contact
   box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.9);
   transition: var(--transition);
   max-width: 50rem;
-  margin: 5rem 0;
+  margin: 3rem auto;
   
 }
 .contact-form:hover {
@@ -601,6 +601,7 @@ Footer
 .footer {
   background: #222;
   text-align: center;
+  
 }
 .social-icon {
   display: inline-flex;
