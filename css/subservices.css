@@ -148,6 +148,7 @@ p {
   color: var(--clr-linkandfirsttitle);
   font-family: var(--ff-secondary);
   font-size: 3rem;
+  margin: 5rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -463,7 +464,7 @@ section {
   position: relative;
   width: 100%;
   height: 70vh;
-  background: var(--clr-primary-dark);
+  background: var(--clr-grey-10);
 }
 .swiper-slide {
   display: flex;
