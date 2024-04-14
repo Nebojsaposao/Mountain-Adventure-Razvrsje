@@ -613,6 +613,8 @@ Services
 .service-info h4{
   font-size: 1.5rem;
   text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 .service-info p {
   font-size: 1.5rem;
