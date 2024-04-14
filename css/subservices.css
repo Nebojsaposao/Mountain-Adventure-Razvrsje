@@ -582,8 +582,9 @@ Services
   box-shadow: 0 5px 15px var(--clr-primary-light);
 }
 .service-img-container {
+  margin: 2rem;
   position: relative;
-  height: 50%;
+  height: 55%;
 }
 .service-img {
   display: flex;
