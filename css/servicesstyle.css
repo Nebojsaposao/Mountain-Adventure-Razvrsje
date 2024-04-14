@@ -476,7 +476,7 @@ Services
       margin: 2rem 0;
       background: var(--clr-grey-10);
       border-radius: var(--radius);
-      box-shadow: 0 5px 15px var(--clr-grey-5);
+      box-shadow: 0 5px 15px var(--clr-grey-10);
       transition: var(--transition);
     }
     .service-card:hover {
