@@ -86,7 +86,7 @@ function smoothScrollToTop() {
 // SWIPPER ZA SUBSERVISE
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
-  centeredSlides: true,
+  centeredSlides: false,
   slidesPerGroupSkip: 1,
   grabCursor: true,
   keyboard: {
