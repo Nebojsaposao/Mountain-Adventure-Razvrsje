@@ -585,7 +585,7 @@ Services
   position: relative;
 }
 .service-img {
-  height: 13rem;
+  height: 30rem;
   object-fit: contain;
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
