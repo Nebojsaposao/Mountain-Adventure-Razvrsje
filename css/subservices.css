@@ -453,6 +453,7 @@ section {
   margin: 0;
   padding: 0;
   height: 80vh;
+  background: var(--clr-primary-dark);
 }
 .swiper {
   display: flex;
@@ -461,20 +462,16 @@ section {
   align-items: center;
   position: relative;
   width: 100%;
-  height: 100%;
-  background: var(--clr-primary-dark);
-}
-.swiper-wrapper{
-  background-color: var(--clr-grey-10);
   height: 70vh;
+  background: var(--clr-primary-dark);
 }
 .swiper-slide {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: auto;
-  margin-top: -7rem;
+  height: 75vh;
+  margin-top: -6rem;
   margin-left: 0.2rem;
   margin-right: -0.85rem;
 }
@@ -510,11 +507,11 @@ section {
 }
 @media only screen and (min-width: 992px) {
   .swiper-slide {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: auto;
+  justify-content: center; */
+  height: 75vh;
   /* margin-top: -6rem; */
   margin-left: 0.1rem;
   margin-right: -0.1rem;
