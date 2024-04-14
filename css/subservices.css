@@ -495,7 +495,7 @@ section {
   position: absolute;
   background: transparent;
   color: var(--clr-primary);
-  bottom: 1.8rem;
+  bottom: 3.5rem;
   left: 0;
   right: 0;
   height: auto;
@@ -586,8 +586,11 @@ Services
   height: 50%;
 }
 .service-img {
-  height: 17rem;
-  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  object-fit: cover;
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
 }
