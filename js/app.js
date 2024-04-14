@@ -93,7 +93,7 @@ var swiper = new Swiper(".mySwiper", {
     enabled: true,
   },
   breakpoints: {
-    769: {
+    993: {
       slidesPerView: 3,
       centeredSlides: false,
       slidesPerGroup: 3,
