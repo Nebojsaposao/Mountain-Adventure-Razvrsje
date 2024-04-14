@@ -497,7 +497,7 @@ section {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: var(--clr-grey-10);
+  background: var(--clr-grey-12);
   display: flex;
   justify-content: center;
   align-items: center;
