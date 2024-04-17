@@ -59,7 +59,7 @@ function smoothScrollToTop() {
     const targetPosition = 0;
     const startPosition = window.pageYOffset;
     const distance = targetPosition - startPosition;
-    const duration = 1000; // ovdje podesavamo duzinu skrolovanja
+    const duration = 4000; // ovdje podesavamo duzinu skrolovanja
   
     let start = null;
     window.requestAnimationFrame(step);
@@ -83,63 +83,9 @@ function smoothScrollToTop() {
 
 
 
-// SWIPPER ZA SUBSERVISE
-// var swiper = new Swiper(".mySwiper", {
-//   slidesPerView: 1,
-//   centeredSlides: false,
-//   slidesPerGroupSkip: 1,
-//   grabCursor: true,
-//   keyboard: {
-//     enabled: true,
-//   },
-//   breakpoints: {
-//     769: {
-//       slidesPerView: 3,
-//       slidesPerGroup: 3,
-//     },
-//   },
-//   scrollbar: {
-//     el: ".swiper-scrollbar",
-//   },
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   },
-//   pagination: {
-//     el: ".swiper-pagination",
-//     clickable: true,
-//   },
-// });
 
 
-// SWIPER ZA GALLERY
-// Swiper za glavnu galeriju
-var swiper = new Swiper(".mySwiper", {
-  loop: true,
-  spaceBetween: 10,
-  grabCursor: true,
-  slidesPerView: 4,
-  freeMode: true,
-  watchSlidesProgress: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
 
-// Swiper za sličice
-var swiper2 = new Swiper(".mySwiper2", {
-  loop: true,
-  spaceBetween: 10,
-  grabCursor: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  thumbs: {
-    swiper: swiper,
-  },
-});
 
 
 // FUNKCIJA ZA DUGME ZA POVRATAK U ISTORIJI PRETRAGE(DUGME GO BACK)
@@ -149,53 +95,10 @@ function goBack() {
 
 
 
-// JS ZA MODAL ZA READ MORE DUGME I PHONE DUGME
-// document.addEventListener('DOMContentLoaded', function () {
-//   // Dohvati modal za "Read more"
-//   var modalReadMore = document.getElementById("myModalReadMore");
-
-//   // Dohvati dugmad "Read more"
-//   var btnReadMore = document.querySelectorAll('.btn.service-btn');
-
-//   // Dohvati elemente za prikazivanje naslova i teksta u modalu
-//   var modalTitle = modalReadMore.querySelector('h2');
-//   var modalText = modalReadMore.querySelector('p');
-
-//   // Dohvati element za zatvaranje moda
-//   var spanReadMore = document.getElementsByClassName("close")[0];
-
-//   // Funkcija koja otvara modal za "Read more" i postavlja naslov i tekst
-//   function openModal(event) {
-//     var btn = event.target;
-//     modalTitle.textContent = btn.getAttribute('data-title');
-//     modalText.textContent = btn.getAttribute('data-text');
-//     modalReadMore.style.display = "block";
-//   }
-
-//   // Funkcija koja zatvara modal za "Read more"
-//   function closeModal() {
-//     modalReadMore.style.display = "none";
-//   }
-
-//   // Dodavanje event listenera na svako dugme "Read more"
-//   btnReadMore.forEach(function (btn) {
-//     btn.addEventListener('click', openModal);
-//   });
-
-//   // Event listener za zatvaranje moda klikom na X
-//   spanReadMore.addEventListener('click', closeModal);
-
-//   // Event listener za zatvaranje moda klikom van moda
-//   window.addEventListener('click', function (event) {
-//     if (event.target === modalReadMore) {
-//       closeModal();
-//     }
-//   });
-// });
 
 
 
-// JavaScript za otvaranje/zatvaranje modala na stranici Services main za link telefon 
+// JavaScript za otvaranje/zatvaranje modala na stranici products za link telefon 
     // Dohvati modal element
     var modal = document.getElementById("myModal");
   

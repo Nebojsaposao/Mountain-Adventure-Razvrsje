@@ -59,7 +59,7 @@ function smoothScrollToTop() {
     const targetPosition = 0;
     const startPosition = window.pageYOffset;
     const distance = targetPosition - startPosition;
-    const duration = 4000; // ovdje podesavamo duzinu skrolovanja
+    const duration = 1000; // ovdje podesavamo duzinu skrolovanja
   
     let start = null;
     window.requestAnimationFrame(step);

@@ -450,7 +450,7 @@ Navbar and header
 
 
 
-
+  
 
 
 
@@ -460,10 +460,18 @@ Navbar and header
 Contact
 ===============
 */
-.contact {
-  background: var(--clr-grey-10);
- 
+section{
   
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  background: var(--clr-grey-10);
+  margin: 0.5rem;
+  font-family: var(--ff-primary);
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--clr-primary-light);
 }
 .contact-info {
   display: flex;
@@ -495,25 +503,35 @@ Contact
 .contact-text:hover {
   transform: scale(1.1);
 }
+.contact-text-mail a{
+  font-weight: bolder;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--clr-primary-light);
+}
+.contact-text-mail a:hover{
+  transform: scale(1.1);
+}
 .contact-item img {
   background-color: var(--clr-primary-light);
    max-width: 25rem;
    height: auto;
    margin-top: 1rem;
    padding: 0.2rem;
-   box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.9);
+   box-shadow: 0 5px 15px var(--clr-grey-5);
    border-radius: var(--radius);
 }
 .contact-item img:hover{
-  box-shadow: 0 5px 15px var(--clr-primary-dark);
-  transform: scale(1.05);
+  box-shadow: 0 5px 15px var(--clr-primary-light);
+  transform: scale(1.01);
   
 }
 .contact-form {
   background: var(--clr-primary-dark);
   border-radius: var(--radius);
   text-align: center;
-  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.9);
+  box-shadow: 0 5px 15px var(--clr-grey-5);
   transition: var(--transition);
   max-width: 50rem;
   margin: 3rem auto;
@@ -557,7 +575,29 @@ Contact
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
 }
+/* Dugme za povratak na contact stranici */
+.btn-contact {
+  display: flex;
+  align-self: center;
+  width: 90%;
+  justify-content: center;
+  background: transparent;
+  color: var(--clr-primary);
+  margin: 2rem auto 1.3rem auto;
+  
+  height: auto;
+  z-index: 1;
+}
+.btn-contact:hover{
+  color: var(--clr-primary-light);
+  background: transparent;
+}
 @media screen and (min-width: 992px) {
+ 
+  .contact{
+    background-color: var(--clr-grey-10);
+    margin: 1rem;
+  }
   .contact-form{
     float: left;
     width: 50%;
