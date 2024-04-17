@@ -498,7 +498,7 @@ section {
   left: 0;
   right: 0;
   height: auto;
-  margin: 1rem 3rem -1rem 3rem;
+  margin: 0 3rem -0.5rem 3rem;
   z-index: 1;
 }
 .btn-accomodation:hover{
