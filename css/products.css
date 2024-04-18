@@ -150,7 +150,7 @@ p {
   color: var(--clr-linkandfirsttitle);
   font-family: var(--ff-secondary);
   font-size: 3rem;
-  margin: 5rem;
+  margin: 1.5rem 0;
 }
 
 @media screen and (min-width: 992px) {
@@ -520,7 +520,7 @@ section {
   position: absolute;
   background: transparent;
   color: var(--clr-primary);
-  bottom: 2rem;
+  bottom: 1.4rem;
   left: 0;
   right: 0;
   height: auto;
@@ -594,8 +594,11 @@ Services
   color: var(--clr-oldpapier);
 }
 .service-card {
-  margin-left: 1.1rem;
-  margin-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-left: 1.2rem;
+  margin-right: 1rem;
   margin-bottom: -5rem;
   background: var(--clr-grey-10);
   border-radius: var(--radius);
@@ -610,7 +613,7 @@ Services
 .service-img-container {
   margin: 2rem 0.5rem 0 0.5rem;
   position: relative;
-  height: 55%;
+  height: 30%;
 }
 .service-img {
   display: flex;
@@ -678,9 +681,6 @@ Services
     margin-top: 1rem;
   }
 }
-
-
-
 
 
 
