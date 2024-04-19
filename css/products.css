@@ -611,7 +611,7 @@ Services
   box-shadow: 0 5px 15px var(--clr-primary-light);
 }
 .service-img-container {
-  margin: 2rem 0.5rem 0 0.5rem;
+  margin: 0.5rem 0.5rem 0 0.5rem;
   position: relative;
   height: 30%;
 }
@@ -659,7 +659,7 @@ Services
   font-weight: 900;
   margin-top: 1.25rem;
 }
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 992px) {
   .service-card {
     height: 85%;
     
@@ -668,7 +668,7 @@ Services
   .service-img-container {
   margin: 2rem 0.5rem 0 0.5rem;
   position: relative;
-  height: 40%;
+  height: 60%;
 }
 }
 @media screen and (max-width: 320px) {
