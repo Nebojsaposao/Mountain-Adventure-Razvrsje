@@ -448,7 +448,7 @@ Navbar and header
 
 section {
   position: relative;
-  height: 100vh;
+  height: 95vh;
   background: #eee;
   font-family: var(--ff-primary);
   font-size: 14px;
@@ -522,7 +522,7 @@ section {
 @media screen and (min-width: 992px) {
   section {
     position: relative;
-    height: 100vh;
+    height: 95vh;
     background: #000;
     font-family: var(--ff-primary);
     font-size: 14px;
