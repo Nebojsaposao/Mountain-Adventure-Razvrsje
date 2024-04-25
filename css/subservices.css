@@ -589,7 +589,7 @@ Navbar and header
       flex-wrap: nowrap;
       margin-left: 1.2rem;
       margin-right: 1rem;
-      margin-bottom: -3rem;
+      margin-bottom: -2rem;
       background: var(--clr-grey-10);
       border-radius: var(--radius);
       box-shadow: 0 5px 15px var(--clr-grey-5);
@@ -649,7 +649,7 @@ Navbar and header
       font-weight: 900;
       
     }
-    @media screen and (min-width: 321px) {
+    @media screen and (min-width: 320px) {
     .service-btn {
       font-size: 1rem;
       text-transform: capitalize;
