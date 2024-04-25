@@ -461,16 +461,15 @@ Navbar and header
 Contact
 ===============
 */
-section{
-  
-}
 .contact {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background: var(--clr-grey-10);
   margin: 0.5rem;
   font-family: var(--ff-primary);
   padding: 0;
+  width: 98%;
   border-radius: 10px;
   box-shadow: 0 5px 15px var(--clr-primary-light);
 }
