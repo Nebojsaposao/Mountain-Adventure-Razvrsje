@@ -137,8 +137,8 @@ p {
   text-align: -webkit-center;
   color: var(--clr-linkandfirsttitle);
   font-family: var(--ff-secondary);
-  font-size: 3rem;
-  margin: 2rem;
+  font-size: 2.5rem;
+  margin: 2rem 0;
 }
 .section-title h3 {
   margin-top: -1rem;
