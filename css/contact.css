@@ -466,7 +466,7 @@ Contact
   flex-direction: column;
   align-items: center;
   background: var(--clr-grey-10);
-  margin: 0 .4rem;
+  margin: 0 .2rem;
   font-family: var(--ff-primary);
   padding: 0;
   width: 98%;
