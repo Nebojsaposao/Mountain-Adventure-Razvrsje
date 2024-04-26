@@ -466,10 +466,10 @@ Contact
   flex-direction: column;
   align-items: center;
   background: var(--clr-grey-10);
-  margin: .65rem;
+  margin: .5rem;
   font-family: var(--ff-primary);
   padding: 0;
-  width: 95%;
+  width: 98%;
   border-radius: 10px;
   box-shadow: 0 5px 15px var(--clr-primary-light);
 }
