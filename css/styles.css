@@ -793,7 +793,7 @@ Products
     padding: 0 1rem;
     }
   .product-img{
-    height: 60vh;
+    height: 55vh;
   }
 }
 @media screen and (min-width: 1200px) {
