@@ -884,3 +884,9 @@ Footer
 .btn-modal:hover{
   background: transparent;
 }
+@media screen and (max-width: 425px) {
+  .modal-content h2{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
