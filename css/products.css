@@ -511,11 +511,11 @@ section {
   font-size: 2.5rem;
 }
 .swiper-slide img {
-  width: 100%;
+  /* width: 100%;
   display: flex;
   object-fit: cover;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 /* Dugme za povratak na accomodations stranici */
 .btn-accomodation {
@@ -633,7 +633,7 @@ Services
   justify-content: center;
   align-items: center;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
 }
