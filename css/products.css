@@ -149,8 +149,8 @@ p {
   text-align: -webkit-center;
   color: var(--clr-linkandfirsttitle);
   font-family: var(--ff-secondary);
-  font-size: 2.5rem;
-  margin: 2rem 0;
+  font-size: 3rem;
+  margin: 2.2rem 0;
 }
 
 @media screen and (min-width: 992px) {
@@ -818,6 +818,7 @@ Footer
   height: 100%;
   overflow: auto;
   background-color: rgba(1, 18, 3, 0.8); /* Tamna pozadina */
+  z-index: 999;
 }
 .modal-content {
   display: flex;

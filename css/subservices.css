@@ -794,6 +794,7 @@ Navbar and header
       height: 100%;
       overflow: auto;
       background-color: rgba(1, 18, 3, 0.8); /* Tamna pozadina */
+      z-index: 999;
     }
     .modal-content {
       display: flex;
