@@ -135,8 +135,8 @@ p {
   flex-direction: column;
 }
 .section-center {
-  width: 95vw;
-  margin: 0 2.6% 0 2.6%;
+  width: 99vw;
+  margin: 0 0.6% 0 0.6%;
   padding: 1.3rem 2rem 0.2rem 2rem;
 }
 .section-title{
@@ -505,10 +505,10 @@ Services
     }
     .service-info {
       text-align: center;
-      padding: 3rem 1rem 2.5rem 1rem;
+      padding: 2rem 1rem 3rem 1rem;
     }
     .service-info h4{
-      font-size: 1.5rem;
+      font-size: 1.35rem;
       text-align: center;
     }
     .service-info p {
@@ -525,19 +525,26 @@ Services
       font-weight: 900;
       margin-top: 1.25rem;
     }
-    @media screen and (min-width: 992px) {
+    /* @media screen and (min-width: 992px) {
       .service-card {
         float: left;
         width: 45%;
         margin: 2.5%;
-        /* 100% 45% 90% 5%*/
+        
+      }
+    } */
+    @media screen and (max-width: 321px) {
+      .service-info h4{
+        font-size: 1.15rem;
+        
       }
     }
-    @media screen and (min-width: 1023px) {
+    @media screen and (min-width: 992px) {
       .service-card {
-        width: 30%;
-        margin: 1.6668%;
-        /* 100% 30% 3.333%*/
+        float: left;
+        width: 31%;
+        margin: 1.1%;
+        
       }
     }
 

@@ -72,8 +72,8 @@ h4 {
   font-size: 0.875rem;
 }
 p {
-  font-size: 1.5rem;
-  margin-bottom: 1.25rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -565,7 +565,7 @@ navbar .logo{
   }  
 
 .about-info {
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   text-align: center;
 }
 .about-picture {
@@ -772,7 +772,7 @@ Products
 }
 .product-text {
   color: var(--clr-grey-5);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   
 }
 .product-img {
