@@ -799,7 +799,6 @@ Navbar and header
     .modal {
       display: none; /* Modal je inicijalno skriven */
       position: fixed;
-      z-index: 1;
       left: 0;
       top: 0;
       width: 100%;
@@ -844,12 +843,13 @@ Navbar and header
       text-align: center;
     }
     .modal-content p{
-      color: rgba(132, 3, 3, 0.4);
+      color: rgba(132, 3, 3, 0.6);
       float: left;
       font-size: 1rem;
       font-weight: bold;
       text-align: center;
     }
+  
     .close {
       position: absolute;
       top: -1.4rem;
@@ -873,13 +873,12 @@ Navbar and header
     .btn-modal:hover{
       background: transparent;
     }
-    .highlighted-text {
-      color: blue; /* Promenite boju prema vašim preferencijama */
-      /* Dodajte druge stilove po potrebi */
-  }
     @media screen and (max-width: 426px) {
       .modal-content h2{
         font-size: 1.5rem;
         
       }
     }
+
+
+    

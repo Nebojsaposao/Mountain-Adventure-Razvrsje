@@ -159,6 +159,8 @@ document.addEventListener('DOMContentLoaded', function () {
   // Dohvati elemente za prikazivanje naslova i teksta u modalu
   var modalTitle = modalReadMore.querySelector('h2');
   var modalText = modalReadMore.querySelector('p');
+  // Stilizovanje dela teksta dodavanjem HTML oznaka
+  
 
   // Dohvati element za zatvaranje moda
   var spanReadMore = document.getElementsByClassName("close")[0];
@@ -229,3 +231,6 @@ for (var i = 0; i < phoneNumbers.length; i++) {
     modal.style.display = "none";
   }
 }
+
+
+
