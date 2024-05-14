@@ -746,7 +746,8 @@ Navbar and header
     }
     .designed{
       font-weight: bold;
-      animation: show1 2s infinite;
+      color: #752222;
+      /* animation: show1 2s infinite; */
       
     }
     .designed1{
