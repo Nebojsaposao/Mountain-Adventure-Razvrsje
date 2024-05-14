@@ -246,22 +246,22 @@ Animation
 @keyframes show1 {
   0% {
     transform: scale(1.5);
-    color: green;
+    /* color: green; */
     opacity: 0.5;
   }
   25% {
     transform: scale(2);
-    color: var(--clr-grey-5);
+    /* color: var(--clr-grey-5); */
     opacity: 1;
   }
   75% {
     transform: scale(2);
-    color: red;
+    /* color: red; */
     opacity: 1;
   }
   100% {
     transform: scale(1);
-    color: green;
+    /* color: green; */
     opacity: 0.5;
   }
 }
