@@ -538,23 +538,6 @@ section {
     box-shadow: 0 5px 15px var(--clr-grey-5);
     
   }
-  /* Dugme za povratak na accomodations stranici */
-  .btn-accomodation {
-    position: absolute;
-    background: transparent;
-    color: var(--clr-primary);
-    margin: 1rem;
-    bottom: -10.5rem;
-    left: 0;
-    right: 0;
-    height: auto;
-    margin: 1rem 3rem -1rem 3rem;
-    z-index: 1;
-  }
-  .btn-accomodation:hover{
-    color: var(--clr-primary-light);
-    background: transparent;
-  }
   .gallery-tittle{
     text-align: center;
     text-align: -webkit-center;
@@ -568,7 +551,23 @@ section {
 
 
 
-
+/* Dugme za povratak na contact stranici */
+.btn-contact {
+  display: flex;
+  align-self: center;
+  width: 90%;
+  justify-content: center;
+  background: transparent;
+  color: var(--clr-primary);
+  margin: 2rem auto 1.3rem auto;
+  
+  height: auto;
+  z-index: 1;
+}
+.btn-contact:hover{
+  color: var(--clr-primary-light);
+  background: transparent;
+}
 
 
 
