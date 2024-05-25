@@ -279,7 +279,7 @@ Navbar and header
   align-items: center;
    position: relative;
   padding: 0 2rem;
-  height: 100vh;
+  height: calc(100vh -50px);
   width: 100vw;
   background-image: url(../images/naslovna11.webp);
   background-repeat: no-repeat;
@@ -552,6 +552,7 @@ navbar .logo{
 @media screen and (min-width: 992px) {
   .header {
     background: none; /* Ukloni background-image */
+    height: 100vh;
   }
 
   #video-bg {
