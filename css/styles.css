@@ -530,13 +530,7 @@ navbar .logo{
   left: -10px;
 }
 /* responsive design */
-@media screen and (max-width: 768px) {
-  .arrow-container {
-    
-    bottom: 70px;
-    
-  }
-}
+
 @media screen and (max-width: 992px) {
   .navbar .links,
   .navbar .action_btn{
@@ -547,6 +541,11 @@ navbar .logo{
   }
   .dropdown_menu {
     display: block;
+  }
+  .arrow-container {
+    
+    bottom: 70px;
+    
   }
 
   @media screen and (max-width: 576px) {
