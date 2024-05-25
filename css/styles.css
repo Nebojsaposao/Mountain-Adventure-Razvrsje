@@ -530,6 +530,13 @@ navbar .logo{
   left: -10px;
 }
 /* responsive design */
+@media screen and (max-width: 768px) {
+  .arrow-container {
+    
+    bottom: 70px;
+    
+  }
+}
 @media screen and (max-width: 992px) {
   .navbar .links,
   .navbar .action_btn{
@@ -553,11 +560,7 @@ navbar .logo{
   .header {
     background: none; /* Ukloni background-image */
   }
-  @media (max-width: 768px) {
-    .header {
-        height: calc(100vh - 50px); /* Add extra space at the bottom for smaller screens */
-    }
-}
+
   #video-bg {
     position: absolute;
     top: 0;
