@@ -138,11 +138,11 @@ p {
   color: var(--clr-linkandfirsttitle);
   font-family: var(--ff-secondary);
   font-size: 3rem;
-  margin: 5rem;
+  margin: 3rem 5rem 1.5rem 5rem;
 }
 .section-title h3 {
   margin-top: -1rem;
- font-size: 3rem;
+  font-size: 3rem;
   font-family: var(--ff-secondary);
   color: var(--clr-linkandfirsttitle);
 }
@@ -161,6 +161,7 @@ p {
     position: relative;
     
   }
+ 
 
 }
 
@@ -448,7 +449,7 @@ Navbar and header
 
 section {
   position: relative;
-  height: 95vh;
+  height: 72.5vh;
   background: #eee;
   font-family: var(--ff-primary);
   font-size: 14px;
@@ -522,12 +523,12 @@ section {
 @media screen and (min-width: 992px) {
   section {
     position: relative;
-    height: 95vh;
+    height: 72.5vh;
     background: #000;
     font-family: var(--ff-primary);
     font-size: 14px;
     color: #000;
-    margin: 5rem ;
+    margin: 1.5rem 5rem 1rem 5rem;
     padding: 0;
     box-shadow: 0 5px 15px var(--clr-primary-light);
   }
